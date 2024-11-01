@@ -1,0 +1,310 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: X-Valid 1.0\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-03-23 22:52+0900\n"
+"Last-Translator: Jamie Talbot\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: xvalid.php:234
+#: xvalid.php:273
+#, php-format
+msgid "&lt;%s&gt; doesn't allow an empty '%s' attribute."
+msgstr ""
+
+#: xvalid.php:319
+#, php-format
+msgid "X-Valid interpreted the '%s' attribute of the &lt;%s&gt; as being empty, followed by a '%s' attribute."
+msgstr ""
+
+#: xvalid.php:367
+#, php-format
+msgid "X-Valid interpreted the '%s' attribute of the &lt;%s&gt; as being empty, followed by an empty '%s' attribute."
+msgstr ""
+
+#: xvalid.php:412
+#, php-format
+msgid "&lt;%s&gt; requires a '%s' attribute, but you have not included one."
+msgstr ""
+
+#: xvalid.php:424
+#, php-format
+msgid "&lt;%s&gt; is not a valid attribute for a &lt;%s&gt; tag in a comment."
+msgstr ""
+
+#: xvalid.php:434
+#, php-format
+msgid "&lt;%s&gt; doesn't allow a '%s' attribute."
+msgstr ""
+
+#: xvalid.php:453
+#, php-format
+msgid "&lt;%s&gt; is not a valid XHTML tag, but I didn't remove it because it might be a typo!"
+msgstr ""
+
+#: xvalid.php:517
+#: xvalid.php:531
+#, php-format
+msgid "The empty tag &lt;%s&gt; cannot be inside a &lt;%s&gt; tag."
+msgstr ""
+
+#: xvalid.php:615
+msgid ""
+"\"\n"
+"</xmp>The input text had unbalanced quotes, so the above layout is\n"
+"almost certainly borked.  Sorry, can't do much about that.\n"
+"This last double quote was added by the printer in an attempt\n"
+"to rescue the situation so that at least the rest of the\n"
+"feedback will look ok.<xmp>"
+msgstr ""
+
+#: xvalid.php:693
+msgid "X-Valid Error: More than 10000 tags, probably infinite loop."
+msgstr ""
+
+#: xvalid.php:722
+msgid "Only list element &lt;li&gt; tags may be inside a list, but naked text has been found."
+msgstr ""
+
+#: xvalid.php:746
+#: xvalid.php:760
+#: xvalid.php:770
+msgid "A possible unclosed tag has been found.  If you want a less than sign (&lt;), you should use &amp;lt; instead."
+msgstr ""
+
+#: xvalid.php:875
+#, php-format
+msgid "&lt;%s&gt; is not a valid tag inside a comment."
+msgstr ""
+
+#: xvalid.php:897
+#, php-format
+msgid "Only list element &lt;li&gt; tags may be inside a list, but a &lt;%s&gt; tag has been found."
+msgstr ""
+
+#: xvalid.php:949
+#, php-format
+msgid ""
+"Hi, this is X-Valid %s.  I've been processing comments posted on your site and attempting to convert them to valid XHTML.  Unfortunately, there were some mistakes I couldn't fix without deleting data or adding something I couldn't guess.  Take a look below to see what changes should be made to to ensure validity...\n"
+"\n"
+msgstr ""
+
+#: xvalid.php:951
+#, php-format
+msgid ""
+"Comment Details:\n"
+"Comment Author: %s\n"
+"Author Email: %s\n"
+"Author URL: %s\n"
+"\n"
+msgstr ""
+
+#: xvalid.php:957
+#, php-format
+msgid ""
+"Edit this comment: %s\n"
+"\n"
+msgstr ""
+
+#: xvalid.php:972
+msgid "X-Validation Results"
+msgstr ""
+
+#: xvalid.php:974
+#, php-format
+msgid "X-Valid %s for WordPress"
+msgstr ""
+
+#: xvalid.php:974
+#, php-format
+msgid "Hi! The post you just edited%s was checked and automatically converted to valid (hopefully) %s markup by <a href=\"http://jamietalbot.com/wp-hacks/xvalid/\">X-Valid</a>."
+msgstr ""
+
+#: xvalid.php:977
+msgid "However, there was at least one mistake that I didn't want to correct automatically, as it would involve deleting data or adding something I can't guess.  Take a look below to see what you need to alter for full compliance..."
+msgstr ""
+
+#: xvalid.php:979
+msgid "If you think there are any mistakes in the conversion, please post a message in the <a href=\"http://jamietalbot.com/wp-hacks/forum/\">forums</a>, including the both the input and output.  This feedback page does have its own limitations, so please be sure to check the post content itself before submitting.  Thanks!"
+msgstr ""
+
+#: xvalid.php:980
+#, php-format
+msgid "You can change X-Valid's settings <a href=\"%s/wp-admin/admin.php?page=xvalid/xvalid.php\">here</a>."
+msgstr ""
+
+#: xvalid.php:982
+#: xvalid.php:1164
+msgid "Update Available"
+msgstr ""
+
+#: xvalid.php:982
+#, php-format
+msgid "You are currently using X-Valid version %s.  The good news is that a newer version, %s is now available!  If you can be bothered, come and get it <a href=\"http://jamietalbot.com/wp-hacks/\" title=\"X-Valid Update Available\" target=\"_blank\">here</a>!"
+msgstr ""
+
+#: xvalid.php:984
+msgid "Input"
+msgstr ""
+
+#: xvalid.php:985
+msgid "Output"
+msgstr ""
+
+#: xvalid.php:986
+msgid "Visible Output"
+msgstr ""
+
+#: xvalid.php:990
+msgid "Caveats"
+msgstr ""
+
+#: xvalid.php:1005
+msgid "Options Updated"
+msgstr ""
+
+#: xvalid.php:1012
+msgid "Options Reset"
+msgstr ""
+
+#: xvalid.php:1019
+msgid "X-Valid Options"
+msgstr ""
+
+#: xvalid.php:1021
+msgid "X-Valid has a number of options you can configure, enabling a customisable amount of correction and feedback."
+msgstr ""
+
+#: xvalid.php:1024
+msgid "X-Valid can automatically check and remove invalid or redundant tags.  Use the checkboxes below to configure how you want it to behave in the given situations.  Remember, <strong>X-Valid validates against the doctype you select below.</strong> If you choose the XHTML 1.0 Strict Doctype and 'Automatically Remove Invalid Tags', tags that are valid against the <em>Transitional</em> doctype could be automatically deleted!"
+msgstr ""
+
+#: xvalid.php:1027
+msgid "Therefore, it's recommended that you leave auto-removal of unknown tags and attributes disabled if you don't know which tags are valid for your chosen doctype."
+msgstr ""
+
+#: xvalid.php:1028
+msgid "In general the Transitional doctype is a safer choice if you are unsure."
+msgstr ""
+
+#: xvalid.php:1036
+msgid "Validating Doctype"
+msgstr ""
+
+#: xvalid.php:1048
+#, php-format
+msgid "X-Valid couldn't find any doctypes to validate against.  Please add valid doctype files to X-Valid's folder or reinstall the plugin using the <a href=\"%s\">Plugins Manager</a>."
+msgstr ""
+
+#: xvalid.php:1050
+msgid "X-Valid couldn't find any doctypes to validate against.  Please add valid doctype files to X-Valid's folder or reinstall the plugin."
+msgstr ""
+
+#: xvalid.php:1074
+msgid "Auto-Correction"
+msgstr ""
+
+#: xvalid.php:1080
+msgid "Automatically remove invalid tags (Not recommended)."
+msgstr ""
+
+#: xvalid.php:1085
+msgid "Automatically remove unavailable tags from post comments."
+msgstr ""
+
+#: xvalid.php:1090
+msgid "Automatically add required attributes."
+msgstr ""
+
+#: xvalid.php:1095
+msgid "Automatically remove invalid attributes (Not recommended)."
+msgstr ""
+
+#: xvalid.php:1100
+msgid "Automatically remove tag pairs with no content."
+msgstr ""
+
+#: xvalid.php:1105
+msgid "Automatically wrap list elements in &lt;li&gt; tags if required."
+msgstr ""
+
+#: xvalid.php:1110
+msgid "Automatically convert less thans (&lt;) to &amp;lt; entities."
+msgstr ""
+
+#: xvalid.php:1123
+msgid "Show parse results by default (May be overridden for individual articles)."
+msgstr ""
+
+#: xvalid.php:1128
+msgid "Email post author when a badly marked up comment is added to their post."
+msgstr ""
+
+#: xvalid.php:1135
+msgid "Miscellaneous"
+msgstr ""
+
+#: xvalid.php:1141
+msgid "Parse comments."
+msgstr ""
+
+#: xvalid.php:1146
+msgid "Automatically check for updates to X-Valid on this page or when feedback is generated."
+msgstr ""
+
+#: xvalid.php:1153
+#, php-format
+msgid "X-Valid %s"
+msgstr ""
+
+#: xvalid.php:1155
+msgid "Copyright &copy; 2004-2006, <a href=\"http://jamietalbot.com/\">Jamie Talbot</a>"
+msgstr ""
+
+#: xvalid.php:1156
+msgid "Licensed under the <a href=\"http://www.opensource.org/licenses/mit-license.php\">MIT License</a>."
+msgstr ""
+
+#: xvalid.php:1166
+#, php-format
+msgid "Version %s now available!"
+msgstr ""
+
+#: xvalid.php:1168
+#, php-format
+msgid "Get it <a href=\"http://jamietalbot.com/wp-hacks/xvalid/\">here</a> or using the <a href=\"%s\">Plugins Manager</a>."
+msgstr ""
+
+#: xvalid.php:1169
+msgid "Get it <a href=\"http://jamietalbot.com/wp-hacks/xvalid/\">here</a>."
+msgstr ""
+
+#: xvalid.php:1178
+msgid "Update Options &raquo;"
+msgstr ""
+
+#: xvalid.php:1185
+msgid "Reset To Defaults &raquo;"
+msgstr ""
+
+#: xvalid.php:1223
+#, php-format
+msgid "This text will be processed against the <strong>%s</strong> doctype.</em>"
+msgstr ""
+
+#: xvalid.php:1228
+msgid "Warning: X-Valid could not find any doctypes to validate against.  No processing will take place."
+msgstr ""
+
+#: xvalid.php:1262
+#, php-format
+msgid "X-Valid %s Comment Report"
+msgstr ""
+
+#: xvalid.php:1266
+msgid "<div class=\"wrap\">Copyright &copy; 2004-2006, <a href=\"http://jamietalbot.com\">Jamie Talbot</a>.<br />Licensed under the <a href=\"http://www.opensource.org/licenses/mit-license.php\">MIT License</a>."
+msgstr ""
+
